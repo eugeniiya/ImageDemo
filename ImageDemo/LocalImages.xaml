@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="ImageDemo.LocalImages"
+ BackgroundColor="#3281CD">
+    <ContentPage.Content>
+        <StackLayout Margin="10,150,10,10">
+            <Label
+ Text="Изображение из локального файла"
+ FontAttributes="Bold"
+ HorizontalOptions="Center"
+ FontSize="50" TextColor="Black"
+ HorizontalTextAlignment="Center"/>
+            <Image 
+ HeightRequest="200"
+ WidthRequest="350"
+ HorizontalOptions="Center"
+ Source="XamarinLogo.png"
+ Aspect="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
